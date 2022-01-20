@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "46Ywmc2+Cc4LQ8woFxURC0VWY+kcSMAtyvX5IM2ZAmCb8Kslyuoqi2vkwjuAq9n+E7wRwWzkZiz38Hu4B+auew==",
+  "dgSpecHash": "NKcub81u7WnQF0LPKvC0pcxJBwnBCXvOF4FQelVFfpqxGjTMq8RPhNgP0EVjJL/AOe+QkX+1L1RtCiITzvbv4Q==",
   "success": true,
   "projectFilePath": "/Users/michaelwatkins1/Desktop/CretaceousPark.Solution/CretaceousPark/CretaceousPark.csproj",
   "expectedPackageFiles": [
@@ -58,10 +58,10 @@
     "/Users/michaelwatkins1/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
     "/Users/michaelwatkins1/.nuget/packages/pomelo.entityframeworkcore.mysql/5.0.0-alpha.2/pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",
     "/Users/michaelwatkins1/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
-    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/michaelwatkins1/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/Users/michaelwatkins1/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/michaelwatkins1/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/michaelwatkins1/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",

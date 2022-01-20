@@ -20,7 +20,7 @@ namespace CretaceousPark.Controllers
 
     // GET api/animals
     [HttpGet]
-    public ActionResult<IEnumerable<Animal>> Get(string species, string gender, string name)
+    public ActionResult<IEnumerable<Animal>> Get([FromQuery]string species, [FromQuery]string gender, [FromQuery]string name)
     {
         var query = _db.Animals.AsQueryable();
 
@@ -44,7 +44,7 @@ namespace CretaceousPark.Controllers
 
     // POST api/animals
     [HttpPost]
-    public async Task<ActionResult<Animal>> Post(Animal animal)
+    public async Task<ActionResult<Animal>> Post([FromBody]Animal animal)
     {
       _db.Animals.Add(animal);
       await _db.SaveChangesAsync();
@@ -53,7 +53,7 @@ namespace CretaceousPark.Controllers
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Animal>> GetAnimal(int id)
+    public async Task<ActionResult<Animal>> GetAnimal([FromQuery]int id)
     {
         var animal = await _db.Animals.FindAsync(id);
 
@@ -66,7 +66,7 @@ namespace CretaceousPark.Controllers
     }
     // PUT: api/Animals/5
     [HttpPut("{id}")]
-    public async Task<IActionResult> Put(int id, Animal animal)
+    public async Task<IActionResult> Put([FromQuery]int id, [FromBody]Animal animal)
     {
       if (id != animal.AnimalId)
       {
@@ -96,7 +96,7 @@ namespace CretaceousPark.Controllers
 
     // DELETE: api/Animals/5
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteAnimal(int id)
+    public async Task<IActionResult> DeleteAnimal([FromQuery]int id)
     {
       var animal = await _db.Animals.FindAsync(id);
       if (animal == null)
@@ -110,7 +110,7 @@ namespace CretaceousPark.Controllers
       return NoContent();
     }
     
-    private bool AnimalExists(int id)
+    private bool AnimalExists([FromQuery]int id)
     {
       return _db.Animals.Any(e => e.AnimalId == id);
     }
